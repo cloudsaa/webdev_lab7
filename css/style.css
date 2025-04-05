@@ -1,8 +1,10 @@
 td, th {
 	border: 1px solid;
   }
-.images{
-	size:20px;
+
+img.images{
+	width: 100px;
+	height: 100px;
 	
   }
   
