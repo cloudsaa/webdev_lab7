@@ -1,5 +1,32 @@
+@font-face {
+  font-family: 'DM Serif Text';
+  src: url('fonts/DMSerifText-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'PT Serif';
+  src: url('fonts/PTSerif-Regular.ttf') format('truetype');
+}
+
+
+body {
+    background-image: url("../images/bg.jpg");
+	background-size: cover;
+    	
+  }
+
+h1{
+   color: white;
+   position: center;
+   align-self: center;
+   font-family: 'DM Serif Text', serif;
+   }
+
+
+
 td, th {
 	border: 1px solid;
+	color: white;
   }
 
 img.images{
@@ -7,4 +34,7 @@ img.images{
 	height: 100px;
 	
   }
+#heading{
+	text-align: center;
+}
   
